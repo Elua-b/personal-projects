@@ -21,6 +21,15 @@ export const metadata: Metadata = {
   title: "Eloidev - Digital Creative Agency",
   description: "Professional web design and development services for businesses, events, and hospitality",
   generator: "dev",
+  keywords: ["web design", "web development", "digital agency", "creative agency", "business website", "event website", "hospitality website","eloi bugingo","elua projects","startups"],
+  authors: [{ name: "Eloidev" }],
+  publisher: "Eloidev",
+  creator: "Eloidev",
+  icons:{
+    icon:"/large.png",
+    shortcut:"/large.png",
+    apple:"/large.png",
+  }
 }
 
 export default function RootLayout({
